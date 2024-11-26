@@ -13,9 +13,7 @@
 % h.m(i,j) is the handle to the single, large dot that represents mean(data{i,j})
 % h.l(i,j) is the handle for the line connecting h.m(i,j) and h.m(i+1,j)
 
-%% TO-DO:
-% Patch can create colour gradients using the 'interp' option to 'FaceColor'. Allow this?
-
+%%
 function h = rm_raincloud(data, colours, plot_top_to_bottom, density_type, bandwidth)
 %% check dimensions of data
 
